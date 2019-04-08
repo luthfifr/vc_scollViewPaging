@@ -194,17 +194,20 @@
 					CF2316431EDD466100D23860 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 2L6QV2N95T;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					CF2316571EDD466100D23860 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 2L6QV2N95T;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CF2316431EDD466100D23860;
 					};
 					CF2316621EDD466100D23860 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 2L6QV2N95T;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CF2316431EDD466100D23860;
 					};
@@ -420,7 +423,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.viewController-scrollView-Paging";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -433,7 +437,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.viewController-scrollView-Paging";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -447,7 +452,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.viewController-scrollView-PagingTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/viewController_scrollView_Paging.app/viewController_scrollView_Paging";
 			};
 			name = Debug;
@@ -462,7 +468,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.viewController-scrollView-PagingTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/viewController_scrollView_Paging.app/viewController_scrollView_Paging";
 			};
 			name = Release;
@@ -476,7 +483,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.viewController-scrollView-PagingUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = viewController_scrollView_Paging;
 			};
 			name = Debug;
@@ -490,7 +498,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.viewController-scrollView-PagingUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = viewController_scrollView_Paging;
 			};
 			name = Release;
@@ -514,6 +523,7 @@
 				CF23166E1EDD466100D23860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF23166F1EDD466100D23860 /* Build configuration list for PBXNativeTarget "viewController_scrollView_PagingTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +532,7 @@
 				CF2316711EDD466100D23860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF2316721EDD466100D23860 /* Build configuration list for PBXNativeTarget "viewController_scrollView_PagingUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +541,7 @@
 				CF2316741EDD466100D23860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
